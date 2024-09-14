@@ -100,7 +100,7 @@ h1 {
 .content {
     display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 40px;
 }
 
 .illustration {
@@ -125,7 +125,7 @@ h1 {
 
 /* Quote Section */
 .quote {
-    padding: 70px 150px;
+    padding: 70px 300px;
     background-color: #E5E7EB;
 }
 
