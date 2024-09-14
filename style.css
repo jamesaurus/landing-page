@@ -176,3 +176,11 @@ h1 {
     align-items: center;
     border: 1px solid #F9FAF8;
 }
+
+/* Footer section */
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 10px;
+    text-align: center;
+}
