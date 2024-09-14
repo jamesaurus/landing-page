@@ -86,7 +86,7 @@ a {
 
 .information {
     padding: 0 150px;
-    padding-bottom: 70px;
+    padding-bottom: 30px;
 }
 
 h1 {
@@ -121,4 +121,25 @@ h1 {
     height: 150px;
     font-size: 18px;
     text-align: center;
+}
+
+/* Quote Section */
+.quote {
+    padding: 70px 150px;
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.author {
+    text-align: right;
+    padding-right: 40px;
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 18px;
 }
