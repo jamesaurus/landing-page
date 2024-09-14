@@ -5,6 +5,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
+    padding: 0 150px;
 }
 
 .top-header, .bottom-header {
@@ -12,8 +13,41 @@ body {
 }
 
 .top-header {
-    justify-content: space-around;
-    padding: 8px;
+    justify-content: space-between;
+    padding: 8px 0;
+}
+
+.bottom-header {
+    justify-content: space-between;
+    padding: 70px 0;
+    align-items: center;
+}
+
+.header-texts {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    align-items: start;
+    gap: 8px;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    border: none;
+    border-radius: 3px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 4px 20px;
 }
 
 ul {
@@ -37,4 +71,9 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+img {
+    width: 450px;
+    height: 200px;
 }
